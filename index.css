@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(53, 68, 136);
+    font-family: "Roboto";
+    padding: 30px;
+    padding-left: 45vh;
+    padding-right: 45vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    width: 100%;
+
+}
+.process{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-content: center;
+    background-color: rgb(238, 237, 237,0.4);
+    border-radius: inherit;
+}
+.form{
+    color: gray;
+    display: grid;
+    grid-area: 2;
+    grid-template-rows: 1fr 2.5fr 0.5fr;
+}
+.form h3{
+    color: black;
+}
+.form{
+    font-size: 20px;
+}
+.form .options{
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btns button{
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 5px;   
+}
+.btns button.continue{
+    color: white;
+    background-color: rgb(68, 42, 243);
+    border:none;
+}
+.btns button.back{
+    background-color: white;
+    border-color: rgb(68, 42, 243);
+    border-color: rgb(128, 128, 128,0.2);
+    box-shadow: 0 0 1.5px rgb(132, 131, 131,0.5);
+}
+.process button{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.process button#step1{
+    background-color: rgb(106, 195, 195);
+}
+.process button#step2{
+    background-color:rgb(68, 42, 243);
+}
+.process button#step3{
+    color:rgb(68, 42, 243);
+    background-color: white;
+    box-shadow: 0 0 1.5px rgb(132, 131, 131,0.6);
+}
+span.name1{
+    color: rgb(132, 131, 131);
+}
+.process span.line{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.process .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options .type{
+    margin-right :10px;
+    display: flex;
+    flex-direction: column;
+}
+.options .type .menu{
+    margin-top: 10px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: rgb(128, 128, 128,0.2);
+    box-shadow: 0 0 1.5px rgb(132, 131, 131,0.5);
+}
+.options .items{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.process .box span{
+    font-size: 20px;
+    font-size: bold;
+}
+.process .box #name1{
+    color: rgb(106, 195, 195);
+}
+.process .box #name2{
+    color: rgb(68, 42, 243);
+}
+.process .box span#name3 {
+    color: rgb(190, 188, 188,0.9)
+}
+input#cbox1{
+    width: 40px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    border-color: rgba(196, 196, 196, 0.2);
+}
+input#cbox1:checked{
+    background-color:rgb(68, 42, 243);
+}
+
+
+
